@@ -1,0 +1,30 @@
+/* Style for the GridPane containing thumbnails */
+.grid-pane {
+    -fx-hgap: 10; /* Horizontal gap between thumbnails */
+    -fx-vgap: 10; /* Vertical gap between thumbnails */
+}
+
+/* Style for the HBox containing buttons */
+.hbox-buttons {
+    -fx-spacing: 10; /* Spacing between buttons */
+    -fx-padding: 10; /* Padding around the buttons */
+}
+
+/* Style for the buttons */
+.button {
+    -fx-font-size: 12; /* Font size for button text */
+    -fx-min-width: 80; /* Minimum width for buttons */
+    -fx-min-height: 40; /* Minimum height for buttons */
+}
+
+/* Style for the thumbnails */
+.image-view {
+    -fx-fit-width: 100; /* Width of thumbnails */
+    -fx-fit-height: 100; /* Height of thumbnails */
+}
+
+/* Style for the enlarged images */
+.enlarged-image {
+    -fx-fit-width: 500; /* Width of enlarged images */
+    -fx-fit-height: 500; /* Height of enlarged images */
+}
